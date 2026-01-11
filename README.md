@@ -97,6 +97,8 @@ Následuje bližší technický popis:
 - Používá servery!, ale pouze jako předávací místo; příklad: člověk A pošle zprávu člověku B, který je ale offline. Nic to nevadí, zpráva se dočasně uloží na serveru, dokud si ji člověk B nevyzvedne. Pak se ze serveru smaže. Toto vypadá velice rizikově, ale používá se [koncové šifrování](#šifrování). Takže se dá pouze vytvářet sociální graf, ale zprávy nepřečtou. Tím, že se jedná o FOSS se dá kdykoliv toto verifikovat, narozdíl od běžných komunikačních platforem, které mají zdrojový kód neveřejný.
 - Servery může kdokoliv hostovat, existuje přímo [delta emailový server](https://chatmail.at/doc/relay/), který je bezpečnější, než běžné emailové servery. Připojením do aplikace se Vám automaticky vytvoří náhodná emailová adresa právě na některém serveru, který vyberete.
 
+Delta chat mě uchvátil. Imponuje mi, že používají existující emailové servery, celou technologii emailu, ale na něco úplně jiného. Kromě toho jsou pro delta chat aplikace dostatečně jednoduché a dobře vypadající, aby jej používali i mí nejbližší, kvůli mě. Není to úplně to, co jsem chtěl - pořád je tam zlý server. Ale je to výrazně lepší kompromis, než výše zmiňované služby, z kterých odcházím.
+
 ## Trvalost mého rozhodnutí
 
 Nacházím se v pozici, kdy si mohu dovolit toto stažení se z populární části internetu. To neznamená, že se situace v budoucnu nezmění. Buď mě okolnosti donutí používat mě nelibé komunikační platformy, anebo změním názor. Všechno se může stát.
