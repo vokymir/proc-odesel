@@ -48,6 +48,14 @@ Takže první důvod proč jsem zvolil tuhe *drastickou* změnu je pragmatická 
 
 ## Z principu
 
+Kromě výše zmíněných (větších nebo menších) obav o mou bezpečnost na internetu je tu další věc. **Osobní přesvědčení.**
+
+Nemám rád velké technologické firmy (anglicky [big tech](https://en.wikipedia.org/wiki/Big_Tech)). Hodně lidí nemá. Ale co s tím můžeme dělat? V mém případě jsem se rozhodl je opustit. Tím dám jasně najevo, že s nimi nesouhlasím. A zároveň o mě nezískají žádné další informace.
+
+Na těchto společnostech mi vadí skoro všechno, vypíchl bych jejich závislost na vykořisťování zemí třetího světa, prioritizování zisku a monopol. Monopol mi vadí. Nepřidám sem žádné odkazy, stačí zadat do Vašeho oblíbeného vyhledávače "big tech" + to co vás zaujalo. Napadl Vás vyhledávač Google? Možná, že máme problém s monopolem.
+
+## Alternativy
+
 
 
 ## Jak mě kontaktovat?
