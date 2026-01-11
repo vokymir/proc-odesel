@@ -94,7 +94,7 @@ Odkaz: <https://delta.chat/en/>
 Používá existující emailové servery a vlastně posílá emaily, aniž by to ale uživatelé poznali. Má mnoho více či méně moderně vypadajících aplikací. Umožňuje i (video) hovory. Myslím, že mám šanci si přes tuto službu povídat i s normálními (netechnickými) kamarády.
 
 Následuje bližší technický popis: 
-- Používá servery!, ale pouze jako předávací místo; příklad: člověk A pošle zprávu člověku B, který je ale offline. Nic to nevadí, zpráva se dočasně uloží na serveru, dokud si ji člověk B nevyzvedne. Pak se ze serveru smaže. Toto vypadá velice rizikově, ale používá se [koncové šifrování](#šifrování???). Takže se dá pouze vytvářet sociální graf, ale zprávy nepřečtou. Tím, že se jedná o FOSS se dá kdykoliv toto verifikovat, narozdíl od běžných komunikačních platforem, které mají zdrojový kód neveřejný.
+- Používá servery!, ale pouze jako předávací místo; příklad: člověk A pošle zprávu člověku B, který je ale offline. Nic to nevadí, zpráva se dočasně uloží na serveru, dokud si ji člověk B nevyzvedne. Pak se ze serveru smaže. Toto vypadá velice rizikově, ale používá se [koncové šifrování](#šifrování). Takže se dá pouze vytvářet sociální graf, ale zprávy nepřečtou. Tím, že se jedná o FOSS se dá kdykoliv toto verifikovat, narozdíl od běžných komunikačních platforem, které mají zdrojový kód neveřejný.
 - Servery může kdokoliv hostovat, existuje přímo [delta emailový server](https://chatmail.at/doc/relay/), který je bezpečnější, než běžné emailové servery. Připojením do aplikace se Vám automaticky vytvoří náhodná emailová adresa právě na některém serveru, který vyberete.
 
 ## Trvalost mého rozhodnutí
@@ -109,9 +109,7 @@ Nacházím se v pozici, kdy si mohu dovolit toto stažení se z populární čá
 | email | ano, jakýkoliv email na mě pořád platí a budu používat |
 | [delta chat](#delta-chat) | ano, pokud si se mnou chcete začít psát, musíme se potkat (anebo pošleme odkaz nějak jinak) | 
 
-Pokud na mě doposud nemáte žádný kontakt, prosím využijte email:
-jeronym.iv@gmail.com
-Nezaručuji odpověď, ba právě naopak. Ale je to jediná možnost pro Vás, chudáky, kteří mě zatím neznají.
+Pokud na mě doposud nemáte žádný kontakt, prosím využijte email **jeronym.iv@gmail.com**. Nezaručuji odpověď, ba právě naopak. Ale je to jediná možnost pro Vás, chudáky, kteří mě zatím neznají.
 
 ---
 
