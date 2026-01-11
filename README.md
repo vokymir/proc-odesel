@@ -28,6 +28,10 @@ Ve Spojených státech neexistuje tak všeobecně platné nařízení, ale prob�
 
 Vaše zprávy a informace o Vás jsou z nějakého důvodu pro někoho důležité. To znamená, že za ně může být ochoten zaplatit. Technologické firmy provozující sociální sítě je provozují jenom proto, že chtějí peníze - na tom není nic špatného, dokud... Kdo se zaručí, že Vaše data neprodají, prostě jenom proto, že jim to vydělá peníze?
 
+### Šifrování???
+
+Ano, některé služby (například WhatsApp) nabízí tzv. koncové šifrování (end-to-end encryption). Pokud je zapnuté, tak se zprávy poslané od člověka A člověku B nedají přečíst, pokud nejste jeden z těch dvou. Toto zabezpečí Vaše zprávy před náhodnými útočníky, ale ne před státním nařízením. Je možné takové šifrování zařídit tak, že bude například existovat jeden klíč, který dokáže odemknout (=přečíst) všechny zprávy.
+
 ### Shrnutí
 
 V této sekci jsem se snažil popsat, že nejznámější komunikační platformy fungují díky centrálním serverům, které mohou být zneužité pro získávání informací o nás jak náhodnými útočníky, státními nařízeními nebo poskytovatelem serveru.
@@ -56,9 +60,58 @@ Na těchto společnostech mi vadí skoro všechno, vypíchl bych jejich závislo
 
 ## Alternativy
 
+Prohledával jsem internet pro alternativy. Přiznávám, bez online komunikace s některými lidmi bych jen těžko existoval. Ale (doufám) nemusí to být komunikace přes platformy, kterým nedůvěřuji.
 
+Moje kritéria pro alternativy byla:
+- [FOSS](https://cs.wikipedia.org/wiki/Svobodn%C3%BD_a_otev%C5%99en%C3%BD_software), zadarmový program se známým zdrojovým kódem
+- bez potřeby jednoho centrálního serveru, ideálně bez žádného serveru
+
+A našel jsem toho hodně. A asi jsem hodně minul. Tady vypíchnu tři projekty, které mě zaujaly.
+
+### Briar
+
+Odkaz: <https://briarproject.org/>
+
+Pravděpodobně nejbezpečnější varianta komunikace kterou jsem našel, která je ale možná až moc bezpečná na mou potřebu. Nemá iPhone aplikaci, což mi aktuálně vadí. Zároveň je více technická, tudíž bych pravděpodobně přišel o všechny kamarády.
+
+Následuje bližší technický popis: 
+- používá TOR, konkrétně onion services: nikdo nezná Vaší IP
+- nemá žádný server: pokud není ten komu píšete zrovna online, zprávu nedostane
+
+### Quiet
+
+Odkaz: <https://tryquiet.org/>
+
+Zaměřená na týmy/komunity. Taky velice bezpečná varianta. Dostupná na všech běžných operačních systémech. Připomíná discord, což vyhovuje mě, ale ne dost velké části mých přátel. Také je v aktivním vývoji, tzn. mnoho věcí zatím nefunguje, ale je tu velký potenciál.
+
+Následuje bližší technický popis: 
+- také používá TOR
+
+### Delta chat
+
+Odkaz: <https://delta.chat/en/>
+
+Používá existující emailové servery a vlastně posílá emaily, aniž by to ale uživatelé poznali. Má mnoho více či méně moderně vypadajících aplikací. Umožňuje i (video) hovory. Myslím, že mám šanci si přes tuto službu povídat i s normálními (netechnickými) kamarády.
+
+Následuje bližší technický popis: 
+- Používá servery!, ale pouze jako předávací místo; příklad: člověk A pošle zprávu člověku B, který je ale offline. Nic to nevadí, zpráva se dočasně uloží na serveru, dokud si ji člověk B nevyzvedne. Pak se ze serveru smaže. Toto vypadá velice rizikově, ale používá se [koncové šifrování](#šifrování???). Takže se dá pouze vytvářet sociální graf, ale zprávy nepřečtou. Tím, že se jedná o FOSS se dá kdykoliv toto verifikovat, narozdíl od běžných komunikačních platforem, které mají zdrojový kód neveřejný.
+- Servery může kdokoliv hostovat, existuje přímo [delta emailový server](https://chatmail.at/doc/relay/), který je bezpečnější, než běžné emailové servery. Připojením do aplikace se Vám automaticky vytvoří náhodná emailová adresa právě na některém serveru, který vyberete.
+
+## Trvalost mého rozhodnutí
+
+Nacházím se v pozici, kdy si mohu dovolit toto stažení se z populární části internetu. To neznamená, že se situace v budoucnu nezmění. Buď mě okolnosti donutí používat mě nelibé komunikační platformy, anebo změním názor. Všechno se může stát.
 
 ## Jak mě kontaktovat?
+
+| Kde | Jak |
+| --- | --- |
+| Volání/SMS | ano, telefon jsem používat nepřestal - kdo na mě máte číslo, směle ho používejte |
+| email | ano, jakýkoliv email na mě pořád platí a budu používat |
+| [delta chat](#delta-chat) | ano, pokud si se mnou chcete začít psát, musíme se potkat (anebo pošleme odkaz nějak jinak) | 
+
+Pokud na mě doposud nemáte žádný kontakt, prosím využijte email:
+jeronym.iv@gmail.com
+Nezaručuji odpověď, ba právě naopak. Ale je to jediná možnost pro Vás, chudáky, kteří mě zatím neznají.
 
 ---
 
