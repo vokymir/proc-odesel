@@ -4,6 +4,8 @@
 
 Toto píšu ve chvíli, kdy se chystám opustit velké a známé sociální sítě, respektive jejich komunikační platformy. Konkrétně je to [Facebook Messenger](https://www.messenger.com/), [WhatsApp](https://www.whatsapp.com/), [Discord](https://discord.com/) a další. V následujících odstavcích se pokusím vysvětlit svoje důvody. Dělám to i proto, abych na tuto stránku mohl odkazovat lidi, které téma zajímá, nebo mi chtěli napsat a nejde jim to.
 
+{:toc}
+
 ## Jak fungují služby, které opouštím?
 
 Největší problém který s nimi mám jsou servery[^server]. Každá z těchto služeb má nějaké centrální servery, na kterých si ukládají naše zprávy. To má pro nás výhodu: nemusíme je mít všechny uložené u sebe v počítači/mobilu (nevýhodou je, že pak nemůžeme posílat libovolně velké soubory, protože by jim rychle došlo místo).
